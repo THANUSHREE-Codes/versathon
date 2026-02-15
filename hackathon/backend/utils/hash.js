@@ -1,8 +1,15 @@
-// HashChangeEvent is a built-in event in JavaScript that is fired when the fragment identifier of the URL (the part after the # symbol) changes. This event is commonly used in single-page applications (SPAs) to detect changes in the URL and update the content accordingly without reloading the page.
+// const crypto = require("crypto");
 
-// Here's an example of how to use the HashChangeEvent in JavaScript:```javascript// Listen for the hashchange event
-// window.addEventListener('hashchange', function() {
-//     console.log('The hash has changed to: ' + window.location.hash);
-// });     
-import React, { useState } from "react";
-import axios from "axios";
+// // Create SHA256 hash of certificate data
+// const createHash = (data) => {
+//   return crypto.createHash("sha256").update(data).digest("hex");
+// };
+
+// module.exports = { createHash };
+const crypto = require("crypto");
+
+const createHash = (data) => {
+  return crypto.createHash("sha256").update(data).digest("hex");
+};
+
+module.exports = { createHash };

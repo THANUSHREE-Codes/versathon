@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background: #f4f6f9;
@@ -69,4 +69,49 @@ button:hover {
   color: red;
   font-weight: bold;
   text-align: center;
+} */
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  text-align: center;
 }
+
+.role-select button, .panel button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.role-select button:hover, .panel button:hover {
+  background-color: #2563eb;
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.panel {
+  background: white;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+img {
+  margin-top: 10px;
+  width: 150px;
+  height: 150px;
+}
+

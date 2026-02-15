@@ -25,7 +25,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Dashboard from "./components/Dashboard";
 import University from "./components/University";
 import Student from "./components/Student";
-import Employer from "./components/Employer";
+import HR from "./components/HR";
 
 function App() {
   return (
@@ -34,7 +34,7 @@ function App() {
         <Route path="/" element={<Dashboard />} />
         <Route path="/university" element={<University />} />
         <Route path="/student" element={<Student />} />
-        <Route path="/employer" element={<Employer />} />
+        <Route path="/HR" element={<HR />} />
       </Routes>
     </BrowserRouter>
   );
